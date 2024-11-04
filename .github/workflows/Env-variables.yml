@@ -16,8 +16,4 @@ jobs:
       - name: Print Greeting
         run: echo "$GREETING, $TARGET!"
 
-      - name: Print GitHub Variables
-        run: |
-          echo "Repository: $GITHUB_REPOSITORY"
-          echo "Run ID: $GITHUB_RUN_ID"
-          echo "Actor: $GITHUB_ACTOR"
+      
